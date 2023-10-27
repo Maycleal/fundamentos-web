@@ -1,0 +1,51 @@
+/*Estilos da página index.html*/
+.center {
+            text-align: center;
+        }
+
+.p1 {
+            font-size: 30px;
+        }
+        
+.p2 {
+            font-size: 20px;
+        }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: pink;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: purple;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+/*Estilos da página contato.html*/
+
+.estilo {
+    color: purple;
+    font-size: 20px;
+}
