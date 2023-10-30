@@ -5,7 +5,7 @@
 
 .p1 {
             font-size: 25px;
-            color: purple;
+            color: rgb(153, 10, 53);
         }
         
 .p2 {
@@ -50,7 +50,13 @@
 
 /*Estilos da página contato.html*/
 
-.estilo {
-    color: purple;
+
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: rgb(153, 10, 53);
     font-size: 20px;
 }
